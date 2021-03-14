@@ -6,7 +6,7 @@ export default class Footer extends Component {
     render() {
         return (
             <footer>
-                <h3>Footer</h3>
+                <p>Brawlrs App - Author: Tanner Francis</p>
             </footer>
         )
     }

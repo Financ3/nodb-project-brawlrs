@@ -8,7 +8,6 @@ export default class FightDisplay extends Component {
     render() {
         return (
             <section className="fightDisplay">
-                <p>This is the Fight Display</p>
                 <PlayerDisplay />
                 <FightButton />
                 <PlayerDisplay />

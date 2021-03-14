@@ -1,38 +1,157 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+
+html {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  background-color: cyan;
+  height: 100vh;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: darkblue;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
-}
+  header {
+    background-color: darkgoldenrod;
+    width: 100%;
+    text-align: center;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .fightDisplay {
+    position: relative;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+    .playerDisplay {
+      display: flex;
+      flex-direction: column;
+      border: 1px black solid;
+      padding: 5px;
+      width: 350px;
+    }
+
+      .imageStatsContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+        .playerDisplayImage {
+          border: 1px black solid;
+          flex-grow: 2;
+        }
+
+          .playerDisplayImage img{
+            max-height: 100%;
+          }
+
+        .playerBaseStats {
+          border: 1px black solid;
+          margin-left: 5px;
+          flex-grow: 1;
+        }
+
+    .fightButton {
+      width: 250px;
+      height: 100px;
+      margin: 0px 20px;
+    }
+      
+    .fightResultsModal {
+      position: absolute;
+      background-color: grey;
+      height: 150px;
+      width: 300px;
+      opacity: .5;
+    }
+
+  .selectBrawlrHeader {
+    background-color: darkgreen;
+    display: flex;
+    padding: 5px;
   }
-}
+
+    .search {
+      margin-left: auto;
+      margin-right: 10px;
+    }
+
+  .selectBrawlrDisplay {
+    position: relative;
+    background-color: darkmagenta;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .miniBrawlrDisplay {
+    border: 1px black solid;
+    margin: 15px;
+    padding: 10px;
+  }
+
+        .playerButtons {
+          display: flex;
+          justify-content: space-around;
+          margin-bottom: 10px;
+        }
+
+        .updateDeleteButtons {
+          display: flex;
+          justify-content: space-around;
+        }
+
+    .addBrawlrModal {
+      padding: 15px;
+      height: 90%;
+      width: 50%;
+      position: absolute;
+      background-color: grey;
+      opacity: .5;
+    }
+
+    .updateBrawlrModal {
+      padding: 15px;
+      height: 90%;
+      width: 50%;
+      position: absolute;
+      background-color: grey;
+      opacity: .5;
+    }
+
+
+  footer {
+    background-color: greenyellow;
+  }
+
+  

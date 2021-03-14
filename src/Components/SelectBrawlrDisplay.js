@@ -1,11 +1,25 @@
 import React, {Component} from 'react';
+import AddBrawlrModal from './SelectBrawlrDisplayComponents/AddBrawlrModal';
+import MiniBrawlrDisplay from './SelectBrawlrDisplayComponents/MiniBrawlrDisplay';
+import UpdateBrawlrModal from './SelectBrawlrDisplayComponents/UpdateBrawlrModal';
 
 export default class SelectBrawlerDisplay extends Component {
     
     render() {
         return(
             <section className="selectBrawlrDisplay">
-                <p>This is the select brawlr display</p>
+                <MiniBrawlrDisplay />
+                <MiniBrawlrDisplay />
+                <MiniBrawlrDisplay />
+                <MiniBrawlrDisplay />
+                <MiniBrawlrDisplay />
+                <MiniBrawlrDisplay />
+                <MiniBrawlrDisplay />
+                <MiniBrawlrDisplay />
+                <MiniBrawlrDisplay />
+                <MiniBrawlrDisplay />
+                <AddBrawlrModal />
+                <UpdateBrawlrModal />
             </section>
         )
     }
