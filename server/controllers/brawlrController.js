@@ -82,7 +82,6 @@ module.exports = {
         //find the brawlr to be deleted using the ID param
         let lookupId = +req.params.id;
         let index = brawlrsData.findIndex(brawlr => brawlr.id===lookupId );
-        console.log(index);
         if (index===(-1)) {
             res.status(400).send(`ID: ${lookupId} does not exist in the current Brawlrs dataset.`);
         } else {

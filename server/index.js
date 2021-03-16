@@ -1,7 +1,7 @@
 const express = require('express');
 brawlrController = require('./controllers/brawlrController');
 app = express();
-port = 3001;
+port = 4020;
 
 app.use(express.json());
 

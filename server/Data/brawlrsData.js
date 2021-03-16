@@ -9,12 +9,13 @@ brawlrsData = [
         attackDamage: 15,
         defenseLevel: 9,
         healthPoints: 30,
-        fightingStyle: 'Melee/Ranged',
+        currentHp: 30,
+        fightingStyle: 'Melee',
         wins: 0,
         losses: 0,
         homeLocation: 'Dar Crala',
-        img: "C:Documents%2Fdevmountain%2Fnodb-brawlrs%2Fserver%2FData%2Fimages%2FAkKAz.png"
-    },
+        img: "AkKAz.png"
+    }, 
     {
         id: 2,
         firstName: 'Az',
@@ -25,11 +26,12 @@ brawlrsData = [
         attackDamage: 20,
         defenseLevel: 5,
         healthPoints: 25,
+        currentHp: 25,
         fightingStyle: 'Melee',
         wins: 0,
         losses: 0,
         homeLocation: 'Dar Crala',
-        img: "C:%2FDocuments%2Fdevmountain%2Fnodb-brawlrs%2Fserver%2FData%2Fimages%2FAzGirak.png"
+        img: "AzGirak.png"
     },
     {
         id: 3,
@@ -41,11 +43,12 @@ brawlrsData = [
         attackDamage: 5,
         defenseLevel: 25,
         healthPoints: 45,
+        currentHp: 45,
         fightingStyle: 'Melee',
         wins: 0,
         losses: 0,
         homeLocation: 'Loch Kurella',
-        img: "C:%2FDocuments%2Fdevmountain%2Fnodb-brawlrs%2Fserver%2FData%2Fimages%2FKhreshK.png"
+        img: "KhreshK.png"
     },
     {
         id: 4,
@@ -57,11 +60,12 @@ brawlrsData = [
         attackDamage: 15,
         defenseLevel: 12,
         healthPoints: 32,
+        currentHp: 32,
         fightingStyle: 'Melee',
         wins: 0,
         losses: 0,
         homeLocation: 'Loch Kurella',
-        img: "C:%2FDocuments%2Fdevmountain%2Fnodb-brawlrs%2Fserver%2FData%2Fimages%2FZoskad.png"
+        img: "Zoskad.png"
     },
     {
         id: 5,
@@ -73,11 +77,12 @@ brawlrsData = [
         attackDamage: 35,
         defenseLevel: 3,
         healthPoints: 25,
+        currentHp: 25,
         fightingStyle: 'Ranged',
         wins: 0,
         losses: 0,
         homeLocation: 'Bala Adun',
-        img: "C:%2FDocuments%2Fdevmountain%2Fnodb-brawlrs%2Fserver%2FData%2Fimages%2FVikarza.png"
+        img: "Vikarza.png"
     },
     {
         id: 6,
@@ -89,11 +94,12 @@ brawlrsData = [
         attackDamage: 15,
         defenseLevel: 9,
         healthPoints: 30,
+        currentHp: 30,
         fightingStyle: 'Melee',
         wins: 0,
         losses: 0,
         homeLocation: 'Bala Adun',
-        img: "C:%2FDocuments%2Fdevmountain%2Fnodb-brawlrs%2Fserver%2FData%2Fimages%2FZhorkak.png"
+        img: "Zhorkak.png"
     },
     {
         id: 7,
@@ -105,11 +111,12 @@ brawlrsData = [
         attackDamage: 30,
         defenseLevel: 9,
         healthPoints: 20,
+        currentHp: 20,
         fightingStyle: 'Ranged',
         wins: 0,
         losses: 0,
         homeLocation: 'Bala Adun',
-        img: "C:%2FDocuments%2Fdevmountain%2Fnodb-brawlrs%2Fserver%2FData%2Fimages%2FKhadrash.png"
+        img: "Khadrash.png"
     },
     {
         id: 8,
@@ -121,11 +128,12 @@ brawlrsData = [
         attackDamage: 30,
         defenseLevel: 9,
         healthPoints: 15,
+        currentHp: 15,
         fightingStyle: 'Caster',
         wins: 0,
         losses: 0,
         homeLocation: 'The Veil',
-        img: "C:%2FDocuments%2Fdevmountain%2Fnodb-brawlrs%2Fserver%2FData%2Fimages%2FWaz.png"
+        img: "Waz.png"
     },
     {
         id: 9,
@@ -137,11 +145,12 @@ brawlrsData = [
         attackDamage: 35,
         defenseLevel: 4,
         healthPoints: 20,
+        currentHp: 20,
         fightingStyle: 'Caster',
         wins: 0,
         losses: 0,
         homeLocation: 'The Veil',
-        img: "C:%2FDocuments%2Fdevmountain%2Fnodb-brawlrs%2Fserver%2FData%2Fimages%2FWorrika.png"
+        img: "Worrika.png"
     },
     {
         id: 10,
@@ -153,11 +162,12 @@ brawlrsData = [
         attackDamage: 35,
         defenseLevel: 4,
         healthPoints: 20,
+        currentHp: 20,
         fightingStyle: 'Melee',
         wins: 0,
         losses: 0,
         homeLocation: 'Kazza Lud',
-        img: "C:%2FDocuments%2Fdevmountain%2Fnodb-brawlrs%2Fserver%2FData%2Fimages%2FFesturgG.png"
+        img: "FesturgG.png"
     }
 ]
 
